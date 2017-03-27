@@ -1,5 +1,5 @@
 * Create n images with resolution exactly same as image.jpg their names should begin with textHidden Eg. textHidden1.png.
-  These are the images that should hold your code words
+  These are the images that should hold your code words like the following image:
   
   ![Example Image](textHidden1.png)
   
@@ -9,7 +9,7 @@
 
 For transmitting these code messages, send Codes.txt and imageX.png. Here X goes from 1 to no of images
 
-Eg.
+Eg. Here the code message image is merged into image.jpg by replacing the 2nd LSB of each pixel
 
 ![Example Image](textHidden1.png) 
 
