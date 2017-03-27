@@ -16,15 +16,8 @@ for imgNo=1:txtRow
 
     planeToBeModified=SEQ(imgNo)+1;
 
-    subplot(2,5,1)
-    imshow(A)
-    title('Original Image')
-
     %Convert to B/W
     B=rgb2gray(A);
-    subplot(2,5,2)
-    imshow(B)
-    title('B/W Image')
 
     for k=0:7
         T=2^k;
@@ -39,22 +32,12 @@ for imgNo=1:txtRow
             end
         end
         E=squeeze(D(k+1,:,:));
-        subplot(2,5,k+3)
-        imshow(E)
-        title(strcat('Bitslice - ',num2str(k)));
     end
 
 
-    subplot(2,3,1)
-    imshow(AX)
-    title('Original Image')
-
     %Convert to B/W
     BX=rgb2gray(AX);
-    subplot(2,3,2)
-    imshow(BX)
-    title('B/W Image')
-
+    
     TX=100;
     [row,col]=size(BX);
     for i=1:row
@@ -66,10 +49,6 @@ for imgNo=1:txtRow
             end
         end
     end
-
-    subplot(2,3,4)
-    imshow(squeeze(D(8,:,:)))
-    title('Threshold Image')
 
     [row,col]=size(B);
     FIN=zeros(size(B));
@@ -88,9 +67,8 @@ for imgNo=1:txtRow
 
     FIN=cat(3,FIN,FIN,FIN);
 
-    subplot(2,3,5)
-    imshow(FIN)
-
     % This is the final file
     imwrite(FIN,strcat('F:\OneDrive\Projects\Proj Github\Matlab Codes\Encryption through Images\image',num2str(imgNo),'.png'));
 end
+
+disp('Images generated! Send Codes.txt and all imageX.png. Here X will go from 1 to no of codes')
