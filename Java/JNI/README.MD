@@ -7,11 +7,11 @@ I have installed openjdk 8 and gcc 6.2
 
 Steps:
 * Create file NativeDemo.java and add following contents and save it:
-	![img SS1](Screenshots/JNI SS1.png)
+	![img SS1](Screenshots/JNI SS1.png?raw=true)
 * Compile this java file using 
 	javac NativeDemo.java
 	Now if you try to run this java file you will get this error
-	![img SS2]()
+	![img SS2](Screenshots/JNI SS2.png?raw=true)
 * This is because a library for this native method has not been created yet. So for that purpose first generate the header file from this class file using following command
 	javah NativeDemo
 	![img SS3]()
