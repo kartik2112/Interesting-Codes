@@ -1,0 +1,4 @@
+98a70afe617c090cbcf940ce0952e8c3
+adf14, sda541, 900
+asd12, grsa32, 800
+C46c45, s8vfd, 1

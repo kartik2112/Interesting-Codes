@@ -1,0 +1,4 @@
+8cf20d2ffd9e8254a58eccbf06f562a1
+B,G,60
+C,D,10
+L,M,90
