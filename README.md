@@ -8,4 +8,7 @@ These codes will be in different languages.
 
 ### Currently languages covered:
 
-<img src="https://engineering.usu.edu/images/MATLAB-Logo.png" height="100"/> <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/549px-Java_programming_language_logo.svg.png" height="100"/>
+<img src="https://engineering.usu.edu/images/logos/MATLAB-Logo.png" height="100"/> <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/549px-Java_programming_language_logo.svg.png" height="100"/>
+<img src="https://isocpp.org/files/img/cpp_logo.png" height="100"/>
+<img src="https://pluralsight.imgix.net/paths/python-7be70baaac.png" height="100"/>
+
